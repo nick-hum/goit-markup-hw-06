@@ -441,8 +441,8 @@
     <!-- modal-form -->
 
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <form class="form" autocomplete="off">
+      
+        <form class="modal">
           <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
          <div class="form-label">
             
@@ -489,13 +489,14 @@
           Соглашаюсь с рассылкой и принимаю &nbsp;<a href="" class="checkbox-link">Условия договора</a>
           </label>
           <button type="submit" class="submit-button">Отправить</button>
+          <button class="modal-button" data-modal-close>
+            <svg width="18" height="18" class="close-icon">
+              <use href="./images/symbol-defs.svg#close-button"></use>
+            </svg>
         </form>
-         <button class="modal-button" data-modal-close>
-          <svg width="18" height="18" class="close-icon">
-            <use href="./images/symbol-defs.svg#close-button"></use>
-          </svg>
+         
          </button>
-        </div>
+        
     </div>
     <script src="./js/modal.js"></script>
   </body>
